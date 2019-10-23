@@ -1,3 +1,5 @@
+import Model.Task;
+import Model.ToDoList;
 import org.junit.*;
 import static org.junit.Assert.*;
 
