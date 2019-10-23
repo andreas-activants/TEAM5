@@ -1,10 +1,12 @@
 import Model.Task;
 import Model.ToDoList;
+import Model.User;
 import org.junit.*;
 import static org.junit.Assert.*;
 
 
 import java.util.Collection;
+import java.util.Date;
 
 public class ToDoListTest {
 	private Task task1;
@@ -17,9 +19,9 @@ public class ToDoListTest {
 	}
 	@Before
 	 public void setUp() throws Exception{
-		task1 = new Task ("desc 1");
-		task2 = new Task ("desc 2");
-		task3 = new Task ("desc 3");
+//		task1 = new Task ("desc 1", new Date(), new Date, "");
+//		task2 = new Task ("desc 2");
+//		task3 = new Task ("desc 3");
 		
 		todoList = new ToDoList();
 	}
