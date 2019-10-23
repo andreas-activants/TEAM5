@@ -50,4 +50,10 @@ public class User {
     public boolean isValidUser(String username, String password) {
         return username.equalsIgnoreCase(this.username) && password.equals(this.password);
     }
+
+    public boolean equals(User user) {
+        return this.username.equals(user.username)
+                && this.email.equals(user.email)
+                && this.password.equals(user.password);
+    }
 }
