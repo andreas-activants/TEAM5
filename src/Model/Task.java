@@ -1,8 +1,8 @@
+package Model;
 
 public class Task {
 	private String description = null;
 	private boolean isComplete = false;
-	
 	
 	public Task(String description) {
 		super();
