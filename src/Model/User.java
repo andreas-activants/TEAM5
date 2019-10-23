@@ -46,4 +46,8 @@ public class User {
     public void setSupervisor(User supervisor) {
         this.supervisor = supervisor;
     }
+
+    public boolean isValidUser(String username, String password) {
+        return username.equalsIgnoreCase(this.username) && password.equals(this.password);
+    }
 }
